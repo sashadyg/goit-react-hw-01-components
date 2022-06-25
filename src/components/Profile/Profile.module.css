@@ -1,0 +1,68 @@
+.profile {
+  display: block;
+  width: 300px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.description {
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 100%;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.name {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+.tag {
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: gray;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.stats__item {
+  display: block;
+  width: calc(100% / 3);
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  color: gray;
+  padding-bottom: 5px;
+}
+
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
