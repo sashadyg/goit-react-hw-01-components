@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
+import ProfileList from 'components/Profile/ProfileList';
+import user from './components/Profile/user';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ProfileList user={user} />
   </React.StrictMode>
 );
