@@ -42,13 +42,13 @@
   justify-content: space-between;
   padding: 0;
   margin: 0;
+  background-color: ghostwhite;
 }
 
 .stats__item {
   display: block;
   width: calc(100% / 3);
   border: 1px solid gainsboro;
-  border-radius: 4px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
