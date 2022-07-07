@@ -1,0 +1,24 @@
+.item {
+  list-style-type: none;
+  display: flex;
+  width: 300px;
+  height: 80px;
+  border: 1px solid gainsboro;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
