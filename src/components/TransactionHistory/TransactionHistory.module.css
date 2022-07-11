@@ -1,0 +1,28 @@
+.history {
+  /* width: 700px; */
+  border-collapse: collapse;
+}
+
+.title {
+  background-color: mediumturquoise;
+}
+
+th {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 100px;
+  border: 1px solid white;
+}
+
+td {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: gray;
+  border: 1px solid gainsboro;
+}
+
+tr:nth-child(2n) {
+  background-color: gainsboro;
+}
